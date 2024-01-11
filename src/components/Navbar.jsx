@@ -1,4 +1,5 @@
 import { Video, Bell, ShoppingCart, CircleUserRound } from "lucide-react";
+
 const Navbar = () => {
   return (
     <header className="relative w-full bg-gray-900">
