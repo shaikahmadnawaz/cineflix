@@ -9,7 +9,8 @@
     "description": "A story about Barry, exploring themes of identity and self-discovery.",
     "actors": ["Bill Hader", "Henry Winkler"],
     "director": "Alec Berg, Bill Hader",
-    "yearOfRelease": 2016
+    "yearOfRelease": 2016,
+    "duration": "128"
   },
   {
     "id": 2,
@@ -21,6 +22,33 @@
     "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
     "actors": ["Robbie Amell", "Rachael Taylor"],
     "director": "Tony Elliott",
+    "yearOfRelease": 2016,
+    "duration": "128"
+  },
+  {
+    "id": 1,
+    "name": "Barry",
+    "coverImage": "/cover-images/barry.webp",
+    "rating": 4,
+    "genre": "Drama",
+    "price": 3.49,
+    "description": "A story about Barry, exploring themes of identity and self-discovery.",
+    "actors": ["Bill Hader", "Henry Winkler"],
+    "director": "Alec Berg, Bill Hader",
+    "yearOfRelease": 2016,
+    "duration": "128"
+  },
+  {
+    "id": 2,
+    "name": "ARQ",
+    "coverImage": "/cover-images/arq.webp",
+    "rating": 3.8,
+    "genre": "Sci-Fi",
+    "price": 2.99,
+    "description": "A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past.",
+    "actors": ["Robbie Amell", "Rachael Taylor"],
+    "director": "Tony Elliott",
+    "duration": "128",
     "yearOfRelease": 2016
   },
   {
@@ -33,7 +61,8 @@
     "description": "A story about Barry, exploring themes of identity and self-discovery.",
     "actors": ["Bill Hader", "Henry Winkler"],
     "director": "Alec Berg, Bill Hader",
-    "yearOfRelease": 2016
+    "yearOfRelease": 2016,
+    "duration": "128"
   },
   {
     "id": 2,
@@ -45,7 +74,8 @@
     "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
     "actors": ["Robbie Amell", "Rachael Taylor"],
     "director": "Tony Elliott",
-    "yearOfRelease": 2016
+    "yearOfRelease": 2016,
+    "duration": "128"
   },
   {
     "id": 1,
@@ -57,7 +87,8 @@
     "description": "A story about Barry, exploring themes of identity and self-discovery.",
     "actors": ["Bill Hader", "Henry Winkler"],
     "director": "Alec Berg, Bill Hader",
-    "yearOfRelease": 2016
+    "yearOfRelease": 2016,
+    "duration": "128"
   },
   {
     "id": 2,
@@ -69,30 +100,7 @@
     "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
     "actors": ["Robbie Amell", "Rachael Taylor"],
     "director": "Tony Elliott",
-    "yearOfRelease": 2016
-  },
-  {
-    "id": 1,
-    "name": "Barry",
-    "coverImage": "/cover-images/barry.webp",
-    "rating": 4,
-    "genre": "Drama",
-    "price": 3.49,
-    "description": "A story about Barry, exploring themes of identity and self-discovery.",
-    "actors": ["Bill Hader", "Henry Winkler"],
-    "director": "Alec Berg, Bill Hader",
-    "yearOfRelease": 2016
-  },
-  {
-    "id": 2,
-    "name": "ARQ",
-    "coverImage": "/cover-images/arq.webp",
-    "rating": 3.8,
-    "genre": "Sci-Fi",
-    "price": 2.99,
-    "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
-    "actors": ["Robbie Amell", "Rachael Taylor"],
-    "director": "Tony Elliott",
-    "yearOfRelease": 2016
+    "yearOfRelease": 2016,
+    "duration": "128"
   }
 ]

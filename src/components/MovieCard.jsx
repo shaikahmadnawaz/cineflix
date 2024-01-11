@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { ShoppingCart, Star } from "lucide-react";
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie, onAddToCart, onOpenModal }) => {
   const { name, coverImage, rating, genre, price } = movie;
 
   return (
@@ -27,13 +27,19 @@ const MovieCard = ({ movie }) => {
           <p> ${price}</p>
         </div>
         <div className="flex justify-between items-center">
-          <button className="w-36 rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black hover:underline inline-flex items-center justify-center space-x-1">
+          <button
+            className="w-36 rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+            onClick={onAddToCart}
+          >
             <span>
               <ShoppingCart size={16} />
             </span>
             <span className="font-bold">Add</span>
           </button>
-          <button className="w-36 rounded-sm text-center  text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black hover:underline inline-flex items-center justify-center space-x-1">
+          <button
+            className="w-36 rounded-sm text-center  text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+            onClick={onOpenModal}
+          >
             <span>View Details</span>
           </button>
         </div>

@@ -13,13 +13,13 @@ const Navbar = () => {
 
         <div className="hidden lg:block">
           <div className="inline-flex items-center space-x-4">
-            <span className="text-gray-600">
+            <span className="text-gray-500 cursor-pointer">
               <Bell />
             </span>
-            <span className="text-gray-600">
+            <span className="text-gray-500 cursor-pointer">
               <ShoppingCart />
             </span>
-            <span className="text-gray-600">
+            <span className="text-gray-500 cursor-pointer">
               <CircleUserRound />
             </span>
           </div>
