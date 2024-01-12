@@ -102,5 +102,31 @@
     "director": "Tony Elliott",
     "yearOfRelease": 2016,
     "duration": "128"
+  },
+  {
+    "id": 9,
+    "name": "ARQ",
+    "coverImage": "/cover-images/arq.webp",
+    "rating": 3.8,
+    "genre": "Sci-Fi",
+    "price": 2.99,
+    "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
+    "actors": ["Robbie Amell", "Rachael Taylor"],
+    "director": "Tony Elliott",
+    "yearOfRelease": 2016,
+    "duration": "128"
+  },
+  {
+    "id": 10,
+    "name": "ARQ",
+    "coverImage": "/cover-images/arq.webp",
+    "rating": 3.8,
+    "genre": "Sci-Fi",
+    "price": 2.99,
+    "description": "A sci-fi thriller involving time loops and the consequences of altering the past.",
+    "actors": ["Robbie Amell", "Rachael Taylor"],
+    "director": "Tony Elliott",
+    "yearOfRelease": 2016,
+    "duration": "128"
   }
 ]
