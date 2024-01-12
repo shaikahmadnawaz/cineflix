@@ -33,7 +33,7 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
                 className="w-full h-64 object-cover rounded-t-lg md:h-[400px] md:w-full"
               />
               <button
-                className="w-full rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+                className="w-full rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1"
                 onClick={onAddToCart}
               >
                 <span>
@@ -56,14 +56,14 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
 
               <div className=" flex gap-x-2 text-gray-400">
                 <p>{yearOfRelease}</p>
-                <span className="">&bull;</span>
+                <span>&bull;</span>
 
                 <p>{duration} minutes</p>
               </div>
 
               <div className="flex gap-x-2 text-gray-400">
                 <p>{genre}</p>
-                <span className="">&bull;</span>
+                <span>&bull;</span>
                 <div className="inline-flex justify-center items-center space-x-[2px]">
                   <span>
                     <Star size={15} />
@@ -71,7 +71,7 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
                   <span>{rating}</span>
                 </div>
 
-                <span className="">&bull;</span>
+                <span>&bull;</span>
                 <p className="font-bold text-gray-300"> ${price}</p>
               </div>
 

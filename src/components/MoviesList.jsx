@@ -31,7 +31,7 @@ const MoviesList = ({ onOpenModal, onAddToCart }) => {
       {visibleMovies < movies.length && (
         <div className="mt-6 md:mt-12 flex justify-center">
           <button
-            className="w-40 rounded-sm text-center text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+            className="w-40 rounded-sm text-center text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1"
             onClick={handleLoadMore}
             disabled={loading}
           >

@@ -42,7 +42,7 @@ const Cart = ({ cartItems, onRemoveFromCart, totalAmount, onCheckout }) => {
       </div>
       <div className="flex flex-col justify-center items-center gap-y-3 mt-4 ">
         <button
-          className="w-full rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+          className="w-full rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1"
           onClick={onCheckout}
         >
           <span>
@@ -50,7 +50,7 @@ const Cart = ({ cartItems, onRemoveFromCart, totalAmount, onCheckout }) => {
           </span>
           <span>Checkout</span>
         </button>
-        <button className="w-full rounded-sm text-center  text-xs font-semibold border border-gray-400 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1 text-white">
+        <button className="w-full rounded-sm text-center text-xs font-semibold border border-gray-400 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1 text-white">
           Continue Shopping
         </button>
       </div>

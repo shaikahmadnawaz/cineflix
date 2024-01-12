@@ -23,12 +23,12 @@ const MovieCard = ({ movie, onAddToCart, onOpenModal }) => {
             <span>{rating}</span>
           </div>
 
-          <span className="">&bull;</span>
+          <span>&bull;</span>
           <p> ${price}</p>
         </div>
         <div className="flex justify-between items-center">
           <button
-            className="w-[140px] rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+            className="w-[140px] rounded-sm text-center bg-yellow-400 text-xs font-semibold text-gray-800 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1"
             onClick={onAddToCart}
           >
             <span>
@@ -37,7 +37,7 @@ const MovieCard = ({ movie, onAddToCart, onOpenModal }) => {
             <span className="font-bold">Add</span>
           </button>
           <button
-            className="w-[140px] rounded-sm text-center  text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md  focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
+            className="w-[140px] rounded-sm text-center text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md inline-flex items-center justify-center space-x-1"
             onClick={onOpenModal}
           >
             <span>View details</span>
