@@ -4,7 +4,7 @@ CineFlix is an online movie store where users can browse a list of movies and vi
 
 ## Demo
 
-[Live Demo 🚀](https://cineflix-mr.vercel.app)
+[Live Demo](https://cineflix-mr.vercel.app) 🚀
 
 ## Features
 

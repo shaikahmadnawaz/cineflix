@@ -31,7 +31,9 @@ const Navbar = ({ cartItems, onRemoveFromCart }) => {
               <Bell />
             </span>
             <span
-              className="text-gray-500 cursor-pointer relative"
+              className={`text-gray-500 cursor-pointer relative ${
+                isCartOpen ? "text-white" : ""
+              }`}
               onClick={handleCartClick}
             >
               <ShoppingCart />
