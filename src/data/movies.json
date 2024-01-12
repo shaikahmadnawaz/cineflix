@@ -26,7 +26,7 @@
     "duration": "128"
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Barry",
     "coverImage": "/cover-images/barry.webp",
     "rating": 4,
@@ -39,7 +39,7 @@
     "duration": "128"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "ARQ",
     "coverImage": "/cover-images/arq.webp",
     "rating": 3.8,
@@ -52,7 +52,7 @@
     "yearOfRelease": 2016
   },
   {
-    "id": 1,
+    "id": 5,
     "name": "Barry",
     "coverImage": "/cover-images/barry.webp",
     "rating": 4,
@@ -65,7 +65,7 @@
     "duration": "128"
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "ARQ",
     "coverImage": "/cover-images/arq.webp",
     "rating": 3.8,
@@ -78,7 +78,7 @@
     "duration": "128"
   },
   {
-    "id": 1,
+    "id": 7,
     "name": "Barry",
     "coverImage": "/cover-images/barry.webp",
     "rating": 4,
@@ -91,7 +91,7 @@
     "duration": "128"
   },
   {
-    "id": 2,
+    "id": 8,
     "name": "ARQ",
     "coverImage": "/cover-images/arq.webp",
     "rating": 3.8,

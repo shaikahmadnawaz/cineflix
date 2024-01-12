@@ -6,6 +6,7 @@ import MovieModal from "../components/MovieModal";
 const Home = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [cart, setCart] = useState([]);
 
   const openModal = (movie) => {
     setSelectedMovie(movie);
@@ -18,12 +19,21 @@ const Home = () => {
   };
 
   const addToCart = (movie) => {
-    // Implement your cart logic here
+    setCart((prevCart) => [...prevCart, movie]);
     console.log(`Added ${movie.name} to the cart!`);
   };
+
+  const removeFromCart = (movieId) => {
+    setCart((prevCart) => prevCart.filter((item) => item.id !== movieId));
+  };
+
   return (
     <section>
-      <Navbar />
+      <Navbar
+        cartCount={cart.length}
+        cartItems={cart}
+        onRemoveFromCart={removeFromCart}
+      />
       <MoviesList onOpenModal={openModal} onAddToCart={addToCart} />
       {isModalOpen && (
         <MovieModal
