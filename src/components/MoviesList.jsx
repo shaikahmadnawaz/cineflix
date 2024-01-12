@@ -29,7 +29,7 @@ const MoviesList = ({ onOpenModal, onAddToCart }) => {
         ))}
       </div>
       {visibleMovies < movies.length && (
-        <div className="mt-12 flex justify-center">
+        <div className="mt-6 md:mt-12 flex justify-center">
           <button
             className="w-40 rounded-sm text-center text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
             onClick={handleLoadMore}

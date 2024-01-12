@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Video, Bell, ShoppingCart, CircleUserRound, X } from "lucide-react";
+import { Video, Bell, ShoppingCart, CircleUserRound } from "lucide-react";
 import { useState } from "react";
 import Cart from "./Cart";
 
