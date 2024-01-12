@@ -43,8 +43,8 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
               </button>
             </div>
 
-            <div className="md:w-2/3 pl-6">
-              <div className="flex justify-end">
+            <div className="md:w-2/3 md:pl-6">
+              <div className="flex justify-end mt-3 md:mt-0">
                 <button
                   onClick={onCloseModal}
                   className="text-gray-600 focus:outline-none"
@@ -52,7 +52,7 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
                   <X />
                 </button>
               </div>
-              <h2 className="text-lg font-bold mb-2">{name}</h2>
+              <h2 className="text-lg font-semibold mb-2">{name}</h2>
 
               <div className=" flex gap-x-2 text-gray-400">
                 <p>{yearOfRelease}</p>
@@ -61,7 +61,7 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
                 <p>{duration} minutes</p>
               </div>
 
-              <div className=" flex gap-x-2 text-gray-400">
+              <div className="flex gap-x-2 text-gray-400">
                 <p>{genre}</p>
                 <span className="">&bull;</span>
                 <div className="inline-flex justify-center items-center space-x-[2px]">
@@ -72,7 +72,7 @@ const MovieModal = ({ movie, onCloseModal, onAddToCart }) => {
                 </div>
 
                 <span className="">&bull;</span>
-                <p> ${price}</p>
+                <p className="font-bold text-gray-300"> ${price}</p>
               </div>
 
               <div className="border border-gray-700 my-4" />

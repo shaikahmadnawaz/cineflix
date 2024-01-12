@@ -17,7 +17,7 @@ const MoviesList = ({ onOpenModal, onAddToCart }) => {
   };
 
   return (
-    <section className="mx-auto items-center justify-between py-12 px-12">
+    <section className="mx-auto items-center justify-between py-6 md:py-12 px-6 md:px-12">
       <div className="grid mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {movies.slice(0, visibleMovies).map((movie) => (
           <MovieCard
@@ -29,7 +29,7 @@ const MoviesList = ({ onOpenModal, onAddToCart }) => {
         ))}
       </div>
       {visibleMovies < movies.length && (
-        <div className="mt-4 flex justify-center">
+        <div className="mt-12 flex justify-center">
           <button
             className="w-40 rounded-sm text-center text-xs font-semibold border border-gray-700 px-2 py-3 shadow-md focus:outline-none focus:ring-2 focus:ring-black inline-flex items-center justify-center space-x-1"
             onClick={handleLoadMore}

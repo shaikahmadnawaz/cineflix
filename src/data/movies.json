@@ -106,5 +106,113 @@
     "director": "Adam Randall",
     "yearOfRelease": 2017,
     "duration": "90"
+  },
+  {
+    "id": 9,
+    "name": "Barry",
+    "coverImage": "/cover-images/barry.webp",
+    "rating": 4,
+    "genre": "Drama",
+    "price": 3.49,
+    "description": "A story about Barry, exploring themes of identity and self-discovery. A story about Barry, exploring themes of identity and self-discovery. A story about Barry, exploring themes of identity and self-discovery. A story about Barry, exploring themes of identity and self-discovery. A story about Barry, exploring themes of identity and self-discovery.",
+    "actors": ["Bill Hader", "Henry Winkler"],
+    "director": "Alec Berg, Bill Hader",
+    "yearOfRelease": 2016,
+    "duration": "128"
+  },
+  {
+    "id": 10,
+    "name": "ARQ",
+    "coverImage": "/cover-images/arq.webp",
+    "rating": 3.8,
+    "genre": "Sci-Fi",
+    "price": 2.99,
+    "description": "A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past. A sci-fi thriller involving time loops and the consequences of altering the past.",
+    "actors": ["Robbie Amell", "Rachael Taylor"],
+    "director": "Tony Elliott",
+    "yearOfRelease": 2016,
+    "duration": "128"
+  },
+
+  {
+    "id": 11,
+    "name": "Pandora",
+    "coverImage": "/cover-images/pandora.webp",
+    "rating": 3.9,
+    "genre": "Sci-Fi",
+    "price": 4.29,
+    "description": "In this thrilling sci-fi adventure, witness the consequences of a scientific experiment gone awry as a small town faces the aftermath of an unexpected disaster. In this thrilling sci-fi adventure, witness the consequences of a scientific experiment gone awry as a small town faces the aftermath of an unexpected disaster.In this thrilling sci-fi adventure, witness the consequences of a scientific experiment gone awry as a small town faces the aftermath of an unexpected disaster. In this thrilling sci-fi adventure, witness the consequences of a scientific experiment gone awry as a small town faces the aftermath of an unexpected disaster.",
+    "actors": ["Song Joon-ho", "Kim Nam-gil", "Kim Young-ae"],
+    "director": "Park Jung-woo",
+    "yearOfRelease": 2016,
+    "duration": "136"
+  },
+
+  {
+    "id": 12,
+    "name": "7 Años",
+    "coverImage": "/cover-images/7-anos.webp",
+    "rating": 4.5,
+    "genre": "Drama",
+    "price": 4.49,
+    "description": "A compelling drama that unfolds during a crucial moment, forcing four friends to confront their past and make a life-changing decision. A compelling drama that unfolds during a crucial moment, forcing four friends to confront their past and make a life-changing decision. A compelling drama that unfolds during a crucial moment, forcing four friends to confront their past and make a life-changing decision.",
+    "actors": ["Paco León", "Juana Acosta", "Alex Brendemühl"],
+    "director": "Roger Gual",
+    "yearOfRelease": 2016,
+    "duration": "95"
+  },
+
+  {
+    "id": 13,
+    "name": "Spectral",
+    "coverImage": "/cover-images/spectral.webp",
+    "rating": 4.1,
+    "genre": "Sci-Fi",
+    "price": 3.99,
+    "description": "An intense sci-fi thriller that follows a special-ops team as they face a supernatural threat on the battlefield, leading to a high-stakes battle between technology and the unknown. An intense sci-fi thriller that follows a special-ops team as they face a supernatural threat on the battlefield, leading to a high-stakes battle between technology and the unknown. An intense sci-fi thriller that follows a special-ops team as they face a supernatural threat on the battlefield, leading to a high-stakes battle between technology and the unknown.",
+    "actors": ["James Badge Dale", "Emily Mortimer", "Bruce Greenwood"],
+    "director": "Nic Mathieu",
+    "yearOfRelease": 2016,
+    "duration": "107"
+  },
+  {
+    "id": 14,
+    "name": "The Siege of Jadotville",
+    "coverImage": "/cover-images/siege-of-jadotville.webp",
+    "rating": 4.3,
+    "genre": "Action",
+    "price": 3.79,
+    "description": "Based on true events, this gripping action film recounts the heroic stand of Irish UN troops during the siege of Jadotville in the Congo in 1961. Based on true events, this gripping action film recounts the heroic stand of Irish UN troops during the siege of Jadotville in the Congo in 1961. Based on true events, this gripping action film recounts the heroic stand of Irish UN troops during the siege of Jadotville in the Congo in 1961.",
+    "actors": ["Jamie Dornan", "Mark Strong", "Jason O'Mara"],
+    "director": "Richie Smyth",
+    "yearOfRelease": 2016,
+    "duration": "108"
+  },
+  {
+    "id": 15,
+    "name": "The Ridiculous 6",
+    "coverImage": "/cover-images/the-ridiculous-6.webp",
+    "rating": 2.5,
+    "genre": "Comedy",
+    "price": 2.99,
+    "description": "An outrageous comedy featuring six half-brothers on a wild journey. An outrageous comedy featuring six half-brothers on a wild journey. An outrageous comedy featuring six half-brothers on a wild journey. An outrageous comedy featuring six half-brothers on a wild journey. An outrageous comedy featuring six half-brothers on a wild journey.",
+    "actors": ["Adam Sandler", "Terry Crews", "Jorge Garcia"],
+    "director": "Frank Coraci",
+    "yearOfRelease": 2015,
+    "duration": "119"
+  },
+
+  {
+    "id": 16,
+    "name": "iBoy",
+    "coverImage": "/cover-images/iboy.webp",
+    "rating": 3.7,
+    "genre": "Sci-Fi",
+    "price": 4.49,
+    "description": "In this sci-fi thriller, follow the story of a teenager who gains extraordinary abilities after a smartphone-related accident, leading him into a world of cybernetic revenge. In this sci-fi thriller, follow the story of a teenager who gains extraordinary abilities after a smartphone-related accident, leading him into a world of cybernetic revenge. In this sci-fi thriller, follow the story of a teenager who gains extraordinary abilities after a smartphone-related accident, leading him into a world of cybernetic revenge.",
+    "actors": ["Bill Milner", "Maisie Williams", "Rory Kinnear"],
+    "director": "Adam Randall",
+    "yearOfRelease": 2017,
+    "duration": "90"
   }
 ]
