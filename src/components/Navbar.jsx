@@ -11,7 +11,7 @@ const Navbar = ({ cartItems, onRemoveFromCart }) => {
   };
 
   return (
-    <header className="relative w-full bg-gray-900">
+    <header className="w-full bg-gray-900">
       <div className="mx-auto flex items-center justify-between py-2 px-12 h-14">
         <div className="inline-flex items-center space-x-1">
           <span className="text-yellow-400">
@@ -20,7 +20,7 @@ const Navbar = ({ cartItems, onRemoveFromCart }) => {
           <span className="font-bold">CineFlix</span>
         </div>
 
-        <div className="hidden lg:block">
+        <div className="hidden lg:block relative">
           <div className="inline-flex items-center space-x-4">
             <span className="text-gray-500 cursor-pointer">
               <Bell />
@@ -30,6 +30,11 @@ const Navbar = ({ cartItems, onRemoveFromCart }) => {
               onClick={handleCartClick}
             >
               <ShoppingCart />
+              {cartItems.length > 0 && (
+                <span className="absolute top-0 right-0 -mt-2 -mr-2 bg-yellow-400 text-gray-950 text-[8px] w-4 h-4 font-bold rounded-full flex items-center justify-center p-1">
+                  {cartItems.length}
+                </span>
+              )}
               {isCartOpen && (
                 <div className="absolute top-12 right-0 w-72 bg-gray-700 shadow-2xl rounded-md p-2">
                   {cartItems.map((item) => (
